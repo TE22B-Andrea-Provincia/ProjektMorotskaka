@@ -1,5 +1,7 @@
 body{
     width: 1189px;
+    display: grid;
+    gap: 12px
 }
 .rubrik{
     width: 1189px;
@@ -11,9 +13,9 @@ body{
     font-size: 35px;
     font-weight: 400;    
     text-align: center;
+    line-height: 5px;
 }
 .morotskaka{
-    margin-top: 15px;
     background-color: #F3B1B1;
     width: 1189px;
     height: 591px;
@@ -29,19 +31,9 @@ body{
     background: #F3B1B1;
     
 }
-.ingredienser, ul,li{
+.ingredienser{
     font-size: 25px;
     margin-block-start: 3%;
     margin-left: 10px;
 }
-.mitten{
-    margin-top: -12px;   
-}
-.extra{
-    padding-left: 600px;
-    width: 568px;
-    height: 379.5px;
-    
-    
-    
-}
+
