@@ -2,11 +2,14 @@ body{
     width: 1189px;
     display: grid; 
     gap: 15px;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 2fr 9fr;
 }
 .rubrik{
     width: 1189px;
     height: 50px;
     background: #F3B1B1;
+    grid-row: 1
 }
 .namn{  
     color: #000;
@@ -19,6 +22,7 @@ body{
     background-color: #F3B1B1;
     width: 1189px;
     height: 591px;
+    grid-row: 2;
     
 }
 .mb{
@@ -26,15 +30,15 @@ body{
     width: 859px;
     height: 591px;
 }
+.mitten{
+    grid-row: 3/4;   
+}
 .recept{
-    gap: 15px;
+    background: #F3B1B1;
     width: 602px;
     height: 759px;
-    background: #F3B1B1;
-    
+    grid-row-start: auto;
+    font-size:  33px;
 }
-.ingredienser{
-    font-size:  33.5px;
-    margin-left: 10px;
-}
+
 
