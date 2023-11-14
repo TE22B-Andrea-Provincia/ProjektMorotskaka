@@ -41,7 +41,7 @@ body{
     margin-top: -26px;
 }
 .texten{
-    margin-left: 5pxpx;
+    margin-left: 5px;
     font-size: 35px;
 }
 .adjo{
@@ -50,7 +50,6 @@ body{
     margin-top: -58px;
 }
 .bay{
-    color: #000;
     font-size: 70px;
     font-weight: 400;    
     text-align: center;
@@ -58,7 +57,6 @@ body{
 .ägg, .morot{
     width: 600px;
     height: 427px;
-
 }
 h3, ul{
     margin-left: 5px;
