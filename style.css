@@ -1,29 +1,22 @@
 body{
     width: 1189px;
-    display: grid; 
-    gap: 15px;
-    grid-template-columns: 1fr;
-    grid-template-rows: auto 2fr 9fr;
 }
 .rubrik{
-    width: 1189px;
     height: 50px;
     background: #F3B1B1;
-    grid-row: 1
+    margin-bottom: 10px;
+    line-height: 50px; 
 }
 .namn{  
     color: #000;
     font-size: 35px;
     font-weight: 400;    
     text-align: center;
-    line-height: 5px;
 }
 .morotskaka{
     background-color: #F3B1B1;
-    width: 1189px;
     height: 591px;
-    grid-row: 2;
-    
+    margin-bottom: 15px;
 }
 .mb{
     margin-left: 150px;
@@ -31,14 +24,42 @@ body{
     height: 591px;
 }
 .mitten{
-    grid-row: 3/4;   
+    display: flex;
+    justify-content: space-between;
+}
+.bilder{
+    display: flex;
+    flex-direction: column;
 }
 .recept{
+    font-size:  35px;
     background: #F3B1B1;
-    width: 602px;
-    height: 759px;
-    grid-row-start: auto;
-    font-size:  33px;
+    column-width: 565px;
 }
+.instruktion{
+    background-color: #F3B1B1;
+    margin-top: -26px;
+}
+.texten{
+    margin-left: 5pxpx;
+    font-size: 35px;
+}
+.adjo{
+    width: 1190px;
+    background-color: #F3B1B1;
+    margin-top: -58px;
+}
+.bay{
+    color: #000;
+    font-size: 70px;
+    font-weight: 400;    
+    text-align: center;
+}
+.ägg, .morot{
+    width: 600px;
+    height: 427px;
 
-
+}
+h3, ul{
+    margin-left: 5px;
+}
