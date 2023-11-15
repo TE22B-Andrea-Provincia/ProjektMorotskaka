@@ -1,17 +1,18 @@
 body{
     width: 1189px;
 }
-.rubrik{
+header{
     height: 50px;
     background: #F3B1B1;
     margin-bottom: 10px;
     line-height: 50px; 
 }
-header{  
-    font-size: 23px;    
+h1{  
+    font-size: 40px;
+    font-weight: 400;    
     text-align: center;
 }
-.morotskaka{
+nav{
     background-color: #F3B1B1;
     height: 591px;
     margin-bottom: 15px;
@@ -25,11 +26,11 @@ main{
     display: flex;
     justify-content: space-between;
 }
-.bilder{
+aside{
     display: flex;
     flex-direction: column;
 }
-.recept{
+article{
     font-size:  35px;
     background: #F3B1B1;
     column-width: 565px;
