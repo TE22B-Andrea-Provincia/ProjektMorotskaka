@@ -48,7 +48,7 @@ footer{
     background-color: #F3B1B1;
     margin-top: -58px;
 }
-p{
+.bay{
     font-size: 70px;
     font-weight: 400;    
     text-align: center;
@@ -57,6 +57,6 @@ p{
     width: 600px;
     height: 427px;
 }
-h3, h2, ul{
+ h2, ul{
     margin-left: 5px;
 }
